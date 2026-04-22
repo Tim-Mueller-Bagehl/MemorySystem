@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: MemorySystem
+Version: 0.1.0
+Summary: Beschreibung deines Projekts
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyaudio
+Requires-Dist: faiss==1.9.0
+Requires-Dist: faster_whisper==1.1.1
+Requires-Dist: librosa==0.11.0
+Requires-Dist: noisereduce==3.0.3
+Requires-Dist: numpy
+Requires-Dist: openai==2.32.0
+Requires-Dist: pydub==0.25.1
+Requires-Dist: realtimestt==0.3.104
+Requires-Dist: scipy
+Requires-Dist: sentence_transformers==5.1.1
+Requires-Dist: soundfile==0.13.1
+Requires-Dist: speechbrain==1.0.3
+Requires-Dist: torch==2.8.0

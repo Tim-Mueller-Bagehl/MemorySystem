@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MemorySystem"
+version = "0.1.0"
+description = "Beschreibung deines Projekts"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pyaudio",
+    "faiss==1.9.0",
+    "faster_whisper==1.1.1",
+    "librosa==0.11.0",
+    "noisereduce==3.0.3",
+    "numpy",
+    "openai==2.32.0",
+    "pydub==0.25.1",
+    "realtimestt==0.3.104",
+    "scipy",
+    "sentence_transformers==5.1.1",
+    "soundfile==0.13.1",
+    "speechbrain==1.0.3",
+    "torch==2.8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

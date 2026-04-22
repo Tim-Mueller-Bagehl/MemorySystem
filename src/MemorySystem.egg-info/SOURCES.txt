@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/MemorySystem.egg-info/PKG-INFO
+src/MemorySystem.egg-info/SOURCES.txt
+src/MemorySystem.egg-info/dependency_links.txt
+src/MemorySystem.egg-info/requires.txt
+src/MemorySystem.egg-info/top_level.txt
